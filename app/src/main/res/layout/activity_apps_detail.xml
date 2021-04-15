@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppsDetail"
+    android:orientation="vertical"
+    android:background="@drawable/img_bg2">
+
+    <ImageView
+        android:id="@+id/iv2_template"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/tv2_template1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/carousel"
+        android:textSize="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv2_template"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2_template2"
+            android:textSize="7.5pt"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+    </ScrollView>
+
+</RelativeLayout>
