@@ -1,0 +1,15 @@
+com/example/projek2/BuildConfig.java
+ com.example.projek2.BuildConfig
+com/example/projek2/AppsData.java
+ com.example.projek2.AppsData
+com/example/projek2/MainActivity.java
+ com.example.projek2.MainActivity
+com/example/projek2/AppsModel.java
+ com.example.projek2.AppsModel
+com/example/projek2/AppsAdapter.java
+ com.example.projek2.AppsAdapter
+ com.example.projek2.AppsAdapter$1
+ com.example.projek2.AppsAdapter$2
+ com.example.projek2.AppsAdapter$ViewHolder
+com/example/projek2/AppsDetail.java
+ com.example.projek2.AppsDetail
